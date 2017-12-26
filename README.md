@@ -26,7 +26,10 @@ Garmin - Connect IQ App for Current Price of Top 5 Cryptocurrencies. Currently i
 * Ole Lim Christiansen
 
 ## Donations
-BTC: 1ALX52tCCfn7bYFjC1A5StK1f3FJLUyhd1
-ETH: 0x5f03f9dcda0e238df806d330c0f92b0041be1817
-LTC: LPd4RzQtXZ9SPbzYJnEedz4Lt566rMF7kv
-XRP: Tag:{ 73590485 } Address: { rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy }
+- BTC: 1ALX52tCCfn7bYFjC1A5StK1f3FJLUyhd1
+
+- ETH: 0x5f03f9dcda0e238df806d330c0f92b0041be1817
+
+- LTC: LPd4RzQtXZ9SPbzYJnEedz4Lt566rMF7kv
+
+- XRP: Tag:{ 73590485 } Address: { rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy }
