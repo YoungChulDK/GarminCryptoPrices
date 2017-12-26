@@ -1,0 +1,10 @@
+<resources>
+	<string id="AppName">CryptoPrices</string>
+
+    <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
+    <bitmap id="BTC" filename="drawables/bitcoin.png" />
+    <bitmap id="ETH" filename="drawables/ethereum.png" />
+    <bitmap id="BCH" filename="drawables/bitcoin-cash.png" />
+    <bitmap id="XRP" filename="drawables/ripple.png" />
+    <bitmap id="LTC" filename="drawables/litecoin.png" />
+</resources>
