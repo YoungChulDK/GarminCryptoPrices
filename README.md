@@ -1,7 +1,9 @@
 # Garmin Connect IQ Widget - Cryptocurrency Prices
-Garmin - Connect IQ Widget for Current Price of Top 5 Cryptocurrencies. Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin Cash (BCH), Ripple (XRP) and Litecoin (LTC)
+Widget to keep you updated on the current prices of top 5 cryptocurrencies on CoinMarketCap. 
 
-*Built for Garmin ConnectIQ SDK - 1.4.0 and higher.*
+Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin Cash (BCH), Ripple (XRP) and Litecoin (LTC)
+
+*Built for Garmin ConnectIQ SDK - 1.3.0 and higher.*
 
 ![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
 
@@ -18,8 +20,9 @@ Feel free to contact me about requested features, and let me know if you like th
 ## Current To-do List
 - [X] Find suitable JSON API
 - [X] Learn MonkeyC 
-- [X] Install Garmin Developer SDK
-- [X] Implement CryptoPrices App
+- [X] Implement Bitcoin ticker
+- [X] Implement Top 5 coins
+- [X] Make GUI scalable for multiple devices
 - [X] Perform testing on multiple Garmin devices
 - [ ] Get the app accepted on the ConnectIQ Store
 - [ ] Add additional logos to 'drawables' in case of a new Top 5
