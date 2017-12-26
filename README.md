@@ -5,7 +5,9 @@ Garmin - Connect IQ Widget for Current Price of Top 5 Cryptocurrencies. Currentl
 
 ![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
 
-**This was just a quick holiday project, so it is not fully finished yet.** Feel free to contact me about requested features, and let me know if you like the project! :)
+**This was just a quick holiday project, so it is not fully finished yet.** 
+
+Feel free to contact me about requested features, and let me know if you like the project! :)
 
 **Software**
 - Eclipse - Oxygen.2 Release (4.7.2)
