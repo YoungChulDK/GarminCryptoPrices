@@ -3,7 +3,7 @@ Garmin - Connect IQ App for Current Price of Top 5 Cryptocurrencies. Currently i
 
 *Built for Garmin ConnectIQ SDK - 1.4.0 and higher.*
 
-![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/GarminFenix3.png?raw=true)
+![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
 
 **This was just a quick holiday project, so it is not fully finished yet.** Feel free to contact me about requested features, and let me know if you like the project! :)
 
