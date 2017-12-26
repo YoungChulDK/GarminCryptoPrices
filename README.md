@@ -1,4 +1,4 @@
-# Garmin Connect IQ Widget - Cryptocurrency Prices
+# Garmin - Connect IQ Widget - Cryptocurrency Prices (Pre-release)
 Widget to keep you updated on the current prices of top 5 cryptocurrencies on CoinMarketCap. 
 
 Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin Cash (BCH), Ripple (XRP) and Litecoin (LTC)
