@@ -10,8 +10,6 @@ class CryptoPricesDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
-        Ui.pushView(new Rez.Menus.MainMenu(), new CryptoPricesMenuDelegate(), Ui.SLIDE_UP);
-        return true;
     }
     
 	function onNextMode() {

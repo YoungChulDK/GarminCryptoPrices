@@ -5,6 +5,9 @@ class CryptoWidgetApp extends App.AppBase {
     hidden var nView;
     	hidden var nModel;
     hidden var nDelegate;
+    hidden var mView;
+    	hidden var mModel;
+    hidden var mDelegate;
     
     // onStart() is called on application start up
     function onStart(state) {

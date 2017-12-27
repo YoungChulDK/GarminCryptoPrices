@@ -1,7 +1,7 @@
-using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
-using Toybox.Graphics;
-using Toybox.Math as Math;
+using Toybox.System;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 using Toybox.System as Sys;
 
 class CryptoWidgetView extends Ui.View {
@@ -11,10 +11,11 @@ class CryptoWidgetView extends Ui.View {
 	hidden var mCurrency = new [5]; //Initializing array for top 5 currencies
 	hidden var mCurPrice = new [5]; //Initializing array for current price of top 5 currencies
 	hidden var dcHeight, dcWidth, dcWidthBM; //Device screen height and width
-	hidden var heightSplitter = [8.72, 3.633, 2.29473, 1.67692, 1.32121]; //For splitting screen height into 5
+	hidden var heightSplitter = [8.72, 3.633, 2.29473, 1.67692, 1.32121, 1.12953]; //For splitting screen height into 5
     hidden var textFont = Graphics.FONT_TINY; //Font size
     var btcBmp, ethBmp, bchBmp, xrpBmp, ltcBmp; //Storing bitmaps
     var idx, dh; //For draw height function
+	var today, dateString;
 
     // Load your resources here
     function onLayout(dc) {
@@ -64,10 +65,22 @@ class CryptoWidgetView extends Ui.View {
         
     //Draw current prices and logos for top 5 currencies
     function drawLastPrice(dc) {
+    
+    		//Timestamp of data collection
+    		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		dateString = Lang.format(
+    			"$1$:$2$:$3$",
+    			[
+        			today.hour.format("%02d"),
+        			today.min.format("%02d"),
+        			today.sec.format("%02d")
+    			]
+		);
+    
     		//Get device screen width and height to avoid too many function calls
     		dcHeight = dc.getHeight();
     		dcWidth = dc.getWidth()/3; //Divide by tree to right align text
-    		dcWidthBM = dc.getWidth()/8; //To left align bitmap icons
+    		dcWidthBM = dc.getWidth()/8; //Left align bitmap icons
     
 		dc.drawText(dcWidth, 
     					dcHeight/heightSplitter[0], 
@@ -122,7 +135,24 @@ class CryptoWidgetView extends Ui.View {
     			idx = mCurrency.indexOf("LTC");
     			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), ltcBmp );
     		}
+		
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);		
+		dc.drawText(dc.getWidth()/2, 
+    					5, 
+    					Graphics.FONT_XTINY, 
+    					"Top 5", 
+    					Graphics.TEXT_JUSTIFY_CENTER);
+		
+		//Draw timestamp
+		dc.drawText(dc.getWidth()/2, 
+    					dc.getHeight()/heightSplitter[5], 
+    					Graphics.FONT_XTINY, 
+    					dateString, 
+    					Graphics.TEXT_JUSTIFY_CENTER);
+    		
     }
+    
+    function onPrice(cp) {
         if (cp instanceof CryptoPrice) {        	
 			
 			//Get prices and coins, and save in array
@@ -137,7 +167,7 @@ class CryptoWidgetView extends Ui.View {
         		}
         	//If data is not fetched yet, throw waiting for data msg.
         }else if (cp instanceof Lang.String) {
-        		commConf = false;	 
+        		commConf = false;
        	}
         Ui.requestUpdate();
     }
