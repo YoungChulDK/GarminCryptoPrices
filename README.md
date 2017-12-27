@@ -3,15 +3,15 @@ Widget to keep you updated on the current prices of top 5 cryptocurrencies on Co
 
 Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin Cash (BCH), Ripple (XRP) and Litecoin (LTC)
 
-*Built for Garmin ConnectIQ SDK - 1.3.0 and higher.*
-
 ![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
+
 [Get the official Garmin app here!](https://apps.garmin.com/da-DK/apps/eb6d1bc7-c9a3-4c17-9c33-41894f023064)
 
 **This was just a quick holiday project, so it is not fully finished yet.** 
 
 Feel free to contact me about requested features, and let me know if you like the project! :)
 
+*Built for Garmin ConnectIQ SDK - 1.3.0 and higher.*
 **Software**
 - Eclipse - Oxygen.2 Release (4.7.2)
 - Java SDK 8
