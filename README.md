@@ -12,6 +12,7 @@ Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin C
 Feel free to contact me about requested features, and let me know if you like the project! :)
 
 *Built for Garmin ConnectIQ SDK - 1.3.0 and higher.*
+
 **Software**
 - Eclipse - Oxygen.2 Release (4.7.2)
 - Java SDK 8
