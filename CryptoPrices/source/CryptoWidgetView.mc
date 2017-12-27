@@ -4,13 +4,13 @@ using Toybox.Graphics;
 using Toybox.Math as Math;
 using Toybox.System as Sys;
 
-class CryptoPricesView extends Ui.View {
+class CryptoWidgetView extends Ui.View {
 
 	//Fields
 	hidden var commConf = false; // Confirm communication
 	hidden var mCurrency = new [5]; //Initializing array for top 5 currencies
 	hidden var mCurPrice = new [5]; //Initializing array for current price of top 5 currencies
-	hidden var dcHeight, dcWidth; //Device screen height and width
+	hidden var dcHeight, dcWidth, dcWidthBM; //Device screen height and width
 	hidden var heightSplitter = [8.72, 3.633, 2.29473, 1.67692, 1.32121]; //For splitting screen height into 5
     hidden var textFont = Graphics.FONT_TINY; //Font size
     var btcBmp, ethBmp, bchBmp, xrpBmp, ltcBmp; //Storing bitmaps
@@ -67,6 +67,7 @@ class CryptoPricesView extends Ui.View {
     		//Get device screen width and height to avoid too many function calls
     		dcHeight = dc.getHeight();
     		dcWidth = dc.getWidth()/3; //Divide by tree to right align text
+    		dcWidthBM = dc.getWidth()/8; //To left align bitmap icons
     
 		dc.drawText(dcWidth, 
     					dcHeight/heightSplitter[0], 
@@ -103,27 +104,25 @@ class CryptoPricesView extends Ui.View {
     		//Update this later for more efficient code
     		if (mCurrency.indexOf("BTC") != -1) {
     			idx = mCurrency.indexOf("BTC");
-    			dc.drawBitmap( 30, drawHeight(dcHeight, idx), btcBmp );
+    			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), btcBmp );
     		}
     		if (mCurrency.indexOf("ETH") != -1) {
     			idx = mCurrency.indexOf("ETH");
-    			dc.drawBitmap( 30, drawHeight(dcHeight, idx), ethBmp );
+    			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), ethBmp );
     		}
     		if (mCurrency.indexOf("BCH") != -1) {
     			idx = mCurrency.indexOf("BCH");
-    			dc.drawBitmap( 30, drawHeight(dcHeight, idx), bchBmp );
+    			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), bchBmp );
     		}
     		if (mCurrency.indexOf("XRP") != -1) {
     			idx = mCurrency.indexOf("XRP");
-    			dc.drawBitmap( 30, drawHeight(dcHeight, idx), xrpBmp );
+    			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), xrpBmp );
     		}
     		if (mCurrency.indexOf("LTC") != -1) {
     			idx = mCurrency.indexOf("LTC");
-    			dc.drawBitmap( 30, drawHeight(dcHeight, idx), ltcBmp );
+    			dc.drawBitmap( dcWidthBM, drawHeight(dcHeight, idx), ltcBmp );
     		}
     }
-    
-    function onPrice(cp) {
         if (cp instanceof CryptoPrice) {        	
 			
 			//Get prices and coins, and save in array
@@ -142,4 +141,5 @@ class CryptoPricesView extends Ui.View {
        	}
         Ui.requestUpdate();
     }
+
 }

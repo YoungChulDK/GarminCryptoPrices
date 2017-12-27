@@ -1,7 +1,6 @@
 using Toybox.Application as App;
-using Toybox.WatchUi as Ui;
 
-class CryptoPricesApp extends App.AppBase {
+class CryptoWidgetApp extends App.AppBase {
 
     hidden var nView;
     	hidden var nModel;
@@ -9,7 +8,7 @@ class CryptoPricesApp extends App.AppBase {
     
     // onStart() is called on application start up
     function onStart(state) {
-    		nView = new CryptoPricesView();
+    		nView = new CryptoWidgetView();
     		nModel = new PriceModel(nView.method(:onPrice));
     		nDelegate = new CryptoPricesDelegate(nModel);
     }
@@ -23,4 +22,5 @@ class CryptoPricesApp extends App.AppBase {
         //return [ new CryptoPricesView(), new CryptoPricesDelegate() ];
         return [ nView, nDelegate ];
     }
+
 }

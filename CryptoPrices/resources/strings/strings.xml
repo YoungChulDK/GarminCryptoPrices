@@ -1,5 +1,3 @@
-<resources>
-    <string id="AppName">CryptoPrices</string>
-    <string id="y1">0</string>
-    <string id="y2">25</string>
-</resources>
+<strings>
+    <string id="AppName">CryptoWidget</string>
+</strings>
