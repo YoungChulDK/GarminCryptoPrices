@@ -5,7 +5,8 @@ Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin C
 
 *Built for Garmin ConnectIQ SDK - 1.3.0 and higher.*
 
-![alt text](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
+![https://apps.garmin.com/da-DK/apps/eb6d1bc7-c9a3-4c17-9c33-41894f023064
+](https://github.com/YoungChulDK/CryptoPricesGarmin/blob/master/Images/CryptoGarmin.jpg?raw=true)
 
 **This was just a quick holiday project, so it is not fully finished yet.** 
 
