@@ -7,4 +7,11 @@
     <bitmap id="BCH" filename="drawables/bitcoin-cash.png" />
     <bitmap id="XRP" filename="drawables/ripple.png" />
     <bitmap id="LTC" filename="drawables/litecoin.png" />
+    <bitmap id="ADA" filename="drawables/cardano.png" />
+    <bitmap id="MIOTA" filename="drawables/miota.png" />
+    <bitmap id="XEM" filename="drawables/nem.png" />
+    <bitmap id="DASH" filename="drawables/dash.png" />
+    <bitmap id="XLM" filename="drawables/stellar.png" />
+    <bitmap id="XMR" filename="drawables/monero.png" />
+    <bitmap id="TRX" filename="drawables/tron.png" />
 </resources>

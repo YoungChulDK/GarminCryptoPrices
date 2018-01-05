@@ -1,18 +1,17 @@
 using Toybox.Communications as Comm;
-using Toybox.Time as Time;
 using Toybox.Time.Gregorian as Gre;
 using Toybox.System as Sys;
 
-
 class CryptoPrice {	//Data of top 5 market cap coins
-	var curPrice = new [5]; //Current priceof top 5
-	var currency = new [5]; //Currencies in top 5
+	var curPrice = new [10]; //Current priceof top 10 (USD $)
+	var curPriceEur = new [10]; //Current priceof top 10 (EUR €)
+	var currency = new [10]; //Currencies in top 10
 }
 
 class PriceModel {
 	var cp = null;
 	//CoinMarketCap JSON API
-	hidden var cryptoPriceURL = "https://api.coinmarketcap.com/v1/ticker/?limit=5";
+	hidden var cryptoPriceURL = "https://api.coinmarketcap.com/v1/ticker/?limit=10&convert=EUR";
 	hidden var notify;
 
   	function initialize(handler)	{
@@ -43,8 +42,9 @@ class PriceModel {
             		cp = new CryptoPrice();
 			}
 			//Remove outer brackets of API call using data[0] if single call for BTC only
-         	for( var i = 0; i < 5; i++ ) {
+         	for( var i = 0; i < 10; i++ ) {
     				cp.curPrice[i] = data[i]["price_usd"].toFloat();
+    				cp.curPriceEur[i] = data[i]["price_eur"].toFloat();
     				cp.currency[i] = data[i]["symbol"];
 			}
            	notify.invoke(cp);
