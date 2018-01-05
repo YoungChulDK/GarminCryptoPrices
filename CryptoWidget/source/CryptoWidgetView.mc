@@ -29,10 +29,7 @@ class CryptoWidgetView extends Ui.View {
 		var currIt = 0, currSymbol; //$/€ Currency iterator
 
     // Load resources here
-    function onLayout(dc) {
-    		//Text and BG color
-        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
-        
+    function onLayout(dc) {        
         //Get device screen width and height to avoid too many function calls
     		dcHeight = dc.getHeight();
     		dcWidth = dc.getWidth()/3; //Divide by tree to right align text
@@ -64,14 +61,14 @@ class CryptoWidgetView extends Ui.View {
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK); //Keep Bg color
+        dc.clear();//Clear screen
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK); //Set text color
     		if(commConf == true){
-        		dc.clear(); //Clear screen
         		drawLastPrice(dc, pg); //Draw prices and logos on screen
         		pg = -pg;
         		return;
     		}else{
-    		    dc.clear(); //Clear screen
     		    //If data is not fetched yet, write out message
         		dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_LARGE, "Waiting for data", Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     		}
@@ -91,7 +88,6 @@ class CryptoWidgetView extends Ui.View {
         
     //Draw current prices and logos for top 5 cryptocurrencies
     function drawLastPrice(dc, pg) {
-    
     		//Timestamp of data collection
     		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		dateString = Lang.format(
@@ -126,7 +122,6 @@ class CryptoWidgetView extends Ui.View {
 			currIt = 0;
 		}
 		//Draw title
-		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 		dc.drawText(dc.getWidth()/2, 
     					5, 
     					Graphics.FONT_XTINY, 
