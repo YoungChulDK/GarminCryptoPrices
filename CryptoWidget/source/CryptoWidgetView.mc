@@ -1,6 +1,5 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System;
-using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.System as Sys;
 
@@ -26,7 +25,7 @@ class CryptoWidgetView extends Ui.View {
 	//For page mode (Changing between page 1 and 2)
 		var today, dateString, titleStr; //Timestamp variables
 		var pg = 1, k = 0; //Page 0: Top 5, Page 1: Top 5-10. Initially 0.
-		var currIt = 0, currSymbol; //$/€ Currency iterator
+		var currIt = 0, currSymbol; //$/€ Currency iterator and Symbol
 
     // Load resources here
     function onLayout(dc) {        
@@ -89,24 +88,18 @@ class CryptoWidgetView extends Ui.View {
     //Draw current prices and logos for top 5 cryptocurrencies
     function drawLastPrice(dc, pg) {
     		//Timestamp of data collection
-    		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		dateString = Lang.format(
-    			"$1$:$2$:$3$",
-    			[
-        			today.hour.format("%02d"),
-        			today.min.format("%02d"),
-        			today.sec.format("%02d")
-    			]
-		);
+    		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); //Get time
+		dateString = Lang.format("$1$:$2$:$3$", [today.hour.format("%02d"), today.min.format("%02d"), today.sec.format("%02d")]); //Create timestamp string
 		
-		//Draw coin tickers (If page one, k = 5, this is to find index + 5)
+		//Draw page 1 (initial) or 2 (If page 2, k = 5, this is to find index + 5)
+		//Page 1 = 1, Page 2 = -1
 		if (pg == -1) {
 			k = 5;
-			pg = -pg;
+			pg = -pg; //Switch page
 			titleStr = "Top 6-10";
 		} else {
 			k = 0;
-			pg = -pg;
+			pg = -pg; //Switch page
 			titleStr = "Top 1-5";
 		}
 		
@@ -121,14 +114,15 @@ class CryptoWidgetView extends Ui.View {
 		}else {
 			currIt = 0;
 		}
-		//Draw title
+		
+		//Draw title (Top)
 		dc.drawText(dc.getWidth()/2, 
     					5, 
     					Graphics.FONT_XTINY, 
     					titleStr, 
     					Graphics.TEXT_JUSTIFY_CENTER);
 		
-		//Draw timestamp
+		//Draw timestamp (Bottom)
 		dc.drawText(dc.getWidth()/2, 
     					dc.getHeight()/heightSplitter[10], 
     					Graphics.FONT_XTINY, 
@@ -136,7 +130,7 @@ class CryptoWidgetView extends Ui.View {
     					Graphics.TEXT_JUSTIFY_CENTER);
 		
     		for( var i = 0; i < 5; i++ ) {
-    			l = i+k; //Inner iterator plus page index padding (Page 2 = i+5)
+    			l = i+k; //Inner iterator plus page index padding (Page 2 = i+5, else i+0)
     			//Draw symbol and price for each coin
     			dc.drawText(dcWidth, 
     			dcHeight/heightSplitter[i], 
@@ -168,7 +162,7 @@ class CryptoWidgetView extends Ui.View {
 			for( var i = 0; i < 10; i++ ) {
 				mCurPrice[i] = cp.curPrice[i].format("%.2f");
 				mCurPriceEur[i] = cp.curPriceEur[i].format("%.2f");
-				mCurrency[i] = cp.currency[i];
+				mCurrency[i] = cp.curSymbol[i];
 			}
         		//If current prices are fetched, communication is confirmed. By default, false.
         		if (mCurPrice[0] != null) {

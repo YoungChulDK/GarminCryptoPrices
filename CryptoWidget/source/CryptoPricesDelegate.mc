@@ -2,22 +2,13 @@ using Toybox.WatchUi as Ui;
 
 class CryptoPricesDelegate extends Ui.BehaviorDelegate {
 
-	hidden var nModel;
+	hidden var Model;
 	
     function initialize(priceModel) {
-    		nModel = priceModel;
+    		Model = priceModel;
     }
 
-    function onMenu() {
-    }
-    
-	function onNextMode() {
-	}
-	
-	function onPreviousMode() {
-	}  
-
-    function onSelect() { //When select is pressed, update and change page view.
+    function onSelect() { //When Select is pressed, update and change page view.
         Ui.requestUpdate();
     }
 }

@@ -1,11 +1,10 @@
 using Toybox.Communications as Comm;
-using Toybox.Time.Gregorian as Gre;
 using Toybox.System as Sys;
 
-class CryptoPrice {	//Data of top 5 market cap coins
-	var curPrice = new [10]; //Current priceof top 10 (USD $)
-	var curPriceEur = new [10]; //Current priceof top 10 (EUR €)
-	var currency = new [10]; //Currencies in top 10
+class CryptoPrice {	//Data of top 10 market cap coins
+	var curPrice = new [10]; //Current $USD price of top 10
+	var curPriceEur = new [10]; //Current €EUR price of top 10
+	var curSymbol = new [10]; //Currencies in top 10
 }
 
 class PriceModel {
@@ -20,38 +19,34 @@ class PriceModel {
     }
     
     function makePriceRequests() {
-    		//Get device specific settings
-		var settings = Sys.getDeviceSettings();
-		
-		//Check if Communications is allowed for app usage
+		//Check if Communications is allowed for Widget usage
 		if (Toybox has :Communications) {
 			cp = null; 
-			// Get current price and coins from API
+			// Get current price and coin symbol from API
 			Comm.makeWebRequest(cryptoPriceURL,
 		         				 {}, 
 		         				 {}, 
-		         				 method(:onReceivePrice));
+		         				 method(:onReceiveData));
 		}else { //If communication fails
       		Sys.println("Communication\nnot\npossible");
       	} 
     }
 
-	function onReceivePrice(responseCode, data) {
+	function onReceiveData(responseCode, data) {
         if(responseCode == 200) {
         		if(cp == null) {
             		cp = new CryptoPrice();
 			}
-			//Remove outer brackets of API call using data[0] if single call for BTC only
+			//Load data from JSON into arrays of USD prices, EUR prices and coin symbols.
          	for( var i = 0; i < 10; i++ ) {
     				cp.curPrice[i] = data[i]["price_usd"].toFloat();
     				cp.curPriceEur[i] = data[i]["price_eur"].toFloat();
-    				cp.currency[i] = data[i]["symbol"];
+    				cp.curSymbol[i] = data[i]["symbol"];
 			}
            	notify.invoke(cp);
         }else { //If error in getting data from JSON API
         		Sys.println("Data request failed\nWith response: ");
         		Sys.println(responseCode);
-        		Sys.println(data);
         }
     }
 }

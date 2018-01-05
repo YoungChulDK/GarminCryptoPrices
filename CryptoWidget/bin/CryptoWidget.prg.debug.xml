@@ -1,102 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="13" pc="268435456" symbol="onStart"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="14" pc="268435460" symbol="onStart"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="15" pc="268435490" symbol="onStart"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="16" pc="268435542" symbol="onStart"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="20" pc="268435581" symbol="onStop"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="24" pc="268435586" symbol="getInitialView"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="26" pc="268435590" symbol="getInitialView"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="32" pc="268435631" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="34" pc="268435635" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="37" pc="268435675" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="38" pc="268435694" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="39" pc="268435719" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="42" pc="268435744" symbol="onLayout"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="61" pc="268436275" symbol="onShow"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="65" pc="268436280" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="68" pc="268436284" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="69" pc="268436298" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="70" pc="268436310" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="71" pc="268436332" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="72" pc="268436354" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="74" pc="268436358" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="76" pc="268436370" symbol="onUpdate"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="83" pc="268436465" symbol="onHide"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="87" pc="268436470" symbol="drawHeight"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="88" pc="268436474" symbol="drawHeight"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="89" pc="268436502" symbol="drawHeight"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="93" pc="268436512" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="96" pc="268436516" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="97" pc="268436566" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="107" pc="268436710" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="108" pc="268436721" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="109" pc="268436734" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="110" pc="268436744" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="112" pc="268436760" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="113" pc="268436773" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="114" pc="268436783" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="118" pc="268436796" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="119" pc="268436815" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="120" pc="268436832" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="121" pc="268436845" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="122" pc="268436864" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="123" pc="268436881" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="124" pc="268436894" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="126" pc="268436913" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="129" pc="268436926" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="130" pc="268436966" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="137" pc="268437036" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="143" pc="268437127" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="144" pc="268437145" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="146" pc="268437164" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="152" pc="268437270" symbol="drawLastPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="159" pc="268437315" symbol="drawIcon"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="160" pc="268437319" symbol="drawIcon"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="161" pc="268437347" symbol="drawIcon"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="162" pc="268437374" symbol="drawIcon"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="163" pc="268437399" symbol="drawIcon"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="169" pc="268437472" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="170" pc="268437476" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="173" pc="268437490" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="174" pc="268437508" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="175" pc="268437544" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="176" pc="268437580" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="179" pc="268437615" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="180" pc="268437634" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="183" pc="268437650" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="184" pc="268437670" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="186" pc="268437683" symbol="onPrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="7" pc="268437701" symbol="initialize"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="8" pc="268437705" symbol="initialize"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="11" pc="268437716" symbol="onMenu"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="14" pc="268437721" symbol="onNextMode"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="17" pc="268437726" symbol="onPreviousMode"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="20" pc="268437731" symbol="onSelect"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="21" pc="268437735" symbol="onSelect"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="17" pc="268437753" symbol="initialize"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="18" pc="268437757" symbol="initialize"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="19" pc="268437767" symbol="initialize"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="22" pc="268437780" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="24" pc="268437784" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="27" pc="268437801" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="28" pc="268437818" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="30" pc="268437827" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="35" pc="268437882" symbol="makePriceRequests"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="39" pc="268437904" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="40" pc="268437908" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="41" pc="268437919" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="42" pc="268437932" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="45" pc="268437965" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="46" pc="268437983" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="47" pc="268438020" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="48" pc="268438057" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="50" pc="268438098" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="52" pc="268438127" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="53" pc="268438148" symbol="onReceivePrice"/>
-<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="54" pc="268438166" symbol="onReceivePrice"/>
-<entry filename="Rez" lineNum="30" pc="268438185" symbol="MainLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="10" pc="268435456" symbol="onStart"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="11" pc="268435460" symbol="onStart"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="12" pc="268435490" symbol="onStart"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="13" pc="268435542" symbol="onStart"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="17" pc="268435581" symbol="onStop"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="21" pc="268435586" symbol="getInitialView"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetApp.mc" lineNum="22" pc="268435590" symbol="getInitialView"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="31" pc="268435631" symbol="onLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="33" pc="268435635" symbol="onLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="34" pc="268435654" symbol="onLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="35" pc="268435679" symbol="onLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="38" pc="268435704" symbol="onLayout"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="57" pc="268436235" symbol="onShow"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="61" pc="268436240" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="63" pc="268436244" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="64" pc="268436284" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="65" pc="268436296" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="66" pc="268436336" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="67" pc="268436350" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="68" pc="268436372" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="69" pc="268436394" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="72" pc="268436398" symbol="onUpdate"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="79" pc="268436493" symbol="onHide"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="83" pc="268436498" symbol="drawHeight"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="84" pc="268436502" symbol="drawHeight"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="85" pc="268436530" symbol="drawHeight"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="89" pc="268436540" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="91" pc="268436544" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="92" pc="268436598" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="96" pc="268436742" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="97" pc="268436753" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="98" pc="268436766" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="99" pc="268436776" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="101" pc="268436792" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="102" pc="268436805" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="103" pc="268436815" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="107" pc="268436828" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="108" pc="268436847" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="109" pc="268436864" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="110" pc="268436877" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="111" pc="268436896" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="112" pc="268436913" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="113" pc="268436926" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="115" pc="268436945" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="119" pc="268436958" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="126" pc="268437028" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="132" pc="268437119" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="133" pc="268437137" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="135" pc="268437156" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="141" pc="268437262" symbol="drawLastPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="148" pc="268437307" symbol="drawIcon"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="149" pc="268437311" symbol="drawIcon"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="150" pc="268437339" symbol="drawIcon"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="151" pc="268437366" symbol="drawIcon"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="152" pc="268437391" symbol="drawIcon"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="158" pc="268437464" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="159" pc="268437468" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="162" pc="268437482" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="163" pc="268437500" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="164" pc="268437536" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="165" pc="268437572" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="168" pc="268437607" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="169" pc="268437626" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="172" pc="268437642" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="173" pc="268437662" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoWidgetView.mc" lineNum="175" pc="268437675" symbol="onPrice"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="7" pc="268437693" symbol="initialize"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="8" pc="268437697" symbol="initialize"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="11" pc="268437708" symbol="onSelect"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/CryptoPricesDelegate.mc" lineNum="12" pc="268437712" symbol="onSelect"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="16" pc="268437730" symbol="initialize"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="17" pc="268437734" symbol="initialize"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="18" pc="268437744" symbol="initialize"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="21" pc="268437757" symbol="makePriceRequests"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="23" pc="268437761" symbol="makePriceRequests"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="24" pc="268437778" symbol="makePriceRequests"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="26" pc="268437787" symbol="makePriceRequests"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="31" pc="268437842" symbol="makePriceRequests"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="35" pc="268437864" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="36" pc="268437868" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="37" pc="268437879" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="38" pc="268437892" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="41" pc="268437925" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="42" pc="268437943" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="43" pc="268437980" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="44" pc="268438017" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="46" pc="268438058" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="48" pc="268438087" symbol="onReceiveData"/>
+<entry filename="/Users/olelimchristiansen/eclipse-workspace/CryptoWidget/./source/PriceModel.mc" lineNum="49" pc="268438108" symbol="onReceiveData"/>
+<entry filename="Rez" lineNum="30" pc="268438127" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -108,37 +102,32 @@
 <entry field="true" id="19" symbol="curCurrencyPrice"/>
 <entry field="true" id="60" symbol="cryptoPriceURL"/>
 <entry field="true" id="26" symbol="idx"/>
-<entry id="63" method="true" symbol="onReceivePrice"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="8388645" module="true" symbol="Time"/>
 <entry field="true" id="49" symbol="DASH"/>
 <entry field="true" id="29" symbol="dateString"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry field="true" id="34" symbol="currSymbol"/>
+<entry field="true" id="14" symbol="Model"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="8389082" method="true" symbol="onNextMode"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="9" object="true" symbol="CryptoWidgetApp"/>
 <entry id="62" method="true" symbol="makePriceRequests"/>
 <entry id="54" method="true" symbol="MainLayout"/>
-<entry field="true" id="64" symbol="nView"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry field="true" id="14" symbol="nModel"/>
 <entry id="35" method="true" symbol="drawHeight"/>
 <entry field="true" id="45" symbol="LTC"/>
 <entry field="true" id="20" symbol="bmapDict"/>
 <entry field="true" id="21" symbol="dcHeight"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="55" symbol="AppName"/>
-<entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="12" object="true" symbol="CryptoPrice"/>
+<entry field="true" id="58" symbol="curSymbol"/>
 <entry field="true" id="41" symbol="BTC"/>
 <entry field="true" id="53" symbol="LauncherIcon"/>
 <entry field="true" id="18" symbol="mCurPriceEur"/>
 <entry field="true" id="30" symbol="titleStr"/>
-<entry id="8389083" method="true" symbol="onPreviousMode"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="42" symbol="ETH"/>
 <entry field="true" id="25" symbol="textFont"/>
@@ -148,22 +137,22 @@
 <entry field="true" id="16" symbol="mCurrency"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="44" symbol="XRP"/>
-<entry field="true" id="68" symbol="mDelegate"/>
 <entry field="true" id="61" symbol="notify"/>
 <entry field="true" id="17" symbol="mCurPrice"/>
 <entry field="true" id="43" symbol="BCH"/>
 <entry field="true" id="51" symbol="XMR"/>
-<entry field="true" id="58" symbol="currency"/>
 <entry field="true" id="50" symbol="XLM"/>
 <entry field="true" id="56" symbol="curPrice"/>
 <entry field="true" id="22" symbol="dcWidth"/>
-<entry field="true" id="67" symbol="mModel"/>
 <entry field="true" id="48" symbol="XEM"/>
 <entry field="true" id="57" symbol="curPriceEur"/>
 <entry id="40" module="true" symbol="Layouts"/>
+<entry id="63" method="true" symbol="onReceiveData"/>
 <entry field="true" id="33" symbol="currIt"/>
 <entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="8389023" object="true" symbol="View"/>
 <entry id="38" method="true" symbol="onPrice"/>
+<entry field="true" id="64" symbol="Delegate"/>
 <entry field="true" id="31" symbol="pg"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="52" symbol="TRX"/>
@@ -180,30 +169,27 @@
 <entry field="true" id="28" symbol="l"/>
 <entry field="true" id="32" symbol="k"/>
 <entry field="true" id="15" symbol="commConf"/>
-<entry field="true" id="65" symbol="nDelegate"/>
-<entry field="true" id="66" symbol="mView"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435581" name="state" stackId="1" startPc="268435456"/>
 <entry endPc="268435586" name="state" stackId="1" startPc="268435581"/>
-<entry endPc="268436275" name="dc" stackId="1" startPc="268435631"/>
-<entry endPc="268436465" name="dc" stackId="1" startPc="268436280"/>
-<entry endPc="268436512" name="index" stackId="2" startPc="268436470"/>
-<entry endPc="268436512" name="dcHeight" stackId="1" startPc="268436470"/>
-<entry endPc="268437314" name="i" stackId="3" startPc="268437145"/>
-<entry endPc="268437315" name="dc" stackId="1" startPc="268436512"/>
-<entry endPc="268437315" name="pg" stackId="2" startPc="268436512"/>
-<entry endPc="268437472" name="dc" stackId="1" startPc="268437315"/>
-<entry endPc="268437472" name="str" stackId="2" startPc="268437315"/>
-<entry endPc="268437615" name="i" stackId="2" startPc="268437508"/>
-<entry endPc="268437700" name="cp" stackId="1" startPc="268437472"/>
-<entry endPc="268437716" name="priceModel" stackId="1" startPc="268437701"/>
-<entry endPc="268437780" name="handler" stackId="1" startPc="268437753"/>
-<entry endPc="268437903" name="settings" stackId="1" startPc="268437784"/>
-<entry endPc="268438098" name="i" stackId="3" startPc="268437983"/>
-<entry endPc="268438185" name="responseCode" stackId="1" startPc="268437904"/>
-<entry endPc="268438185" name="data" stackId="2" startPc="268437904"/>
-<entry endPc="268438198" name="dc" stackId="1" startPc="268438185"/>
+<entry endPc="268436235" name="dc" stackId="1" startPc="268435631"/>
+<entry endPc="268436493" name="dc" stackId="1" startPc="268436240"/>
+<entry endPc="268436540" name="index" stackId="2" startPc="268436498"/>
+<entry endPc="268436540" name="dcHeight" stackId="1" startPc="268436498"/>
+<entry endPc="268437306" name="i" stackId="3" startPc="268437137"/>
+<entry endPc="268437307" name="dc" stackId="1" startPc="268436540"/>
+<entry endPc="268437307" name="pg" stackId="2" startPc="268436540"/>
+<entry endPc="268437464" name="dc" stackId="1" startPc="268437307"/>
+<entry endPc="268437464" name="str" stackId="2" startPc="268437307"/>
+<entry endPc="268437607" name="i" stackId="2" startPc="268437500"/>
+<entry endPc="268437692" name="cp" stackId="1" startPc="268437464"/>
+<entry endPc="268437708" name="priceModel" stackId="1" startPc="268437693"/>
+<entry endPc="268437757" name="handler" stackId="1" startPc="268437730"/>
+<entry endPc="268438058" name="i" stackId="3" startPc="268437943"/>
+<entry endPc="268438127" name="responseCode" stackId="1" startPc="268437864"/>
+<entry endPc="268438127" name="data" stackId="2" startPc="268437864"/>
+<entry endPc="268438140" name="dc" stackId="1" startPc="268438127"/>
 </localVars>
 <annotations/>
 <functions>
@@ -255,15 +241,6 @@
 <param id="priceModel"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onMenu" parent="CryptoPricesDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onNextMode" parent="CryptoPricesDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onPreviousMode" parent="CryptoPricesDelegate">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="onSelect" parent="CryptoPricesDelegate">
 <documentation/>
 </functionEntry>
@@ -274,7 +251,7 @@
 <functionEntry accessMode="public" name="makePriceRequests" parent="PriceModel">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onReceivePrice" parent="PriceModel">
+<functionEntry accessMode="public" name="onReceiveData" parent="PriceModel">
 <param id="responseCode"/>
 <param id="data"/>
 <documentation/>
@@ -287,16 +264,16 @@
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="206" parentId="globals" symbolId="CryptoPricesDelegate" type="class"/>
-<dataEntry offset="293" parentId="globals" symbolId="CryptoWidgetView" type="class"/>
-<dataEntry offset="572" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="651" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="786" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="817" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="848" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="879" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="918" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="957" parentId="globals" symbolId="CryptoPrice" type="class"/>
-<dataEntry offset="1028" parentId="globals" symbolId="PriceModel" type="class"/>
-<dataEntry offset="1115" parentId="globals" symbolId="CryptoWidgetApp" type="class"/>
+<dataEntry offset="269" parentId="globals" symbolId="CryptoWidgetView" type="class"/>
+<dataEntry offset="548" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="627" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="762" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="793" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="824" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="855" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="894" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="933" parentId="globals" symbolId="CryptoPrice" type="class"/>
+<dataEntry offset="1004" parentId="globals" symbolId="PriceModel" type="class"/>
+<dataEntry offset="1091" parentId="globals" symbolId="CryptoWidgetApp" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

@@ -2,18 +2,15 @@ using Toybox.Application as App;
 
 class CryptoWidgetApp extends App.AppBase {
 
-    hidden var nView;
-    	hidden var nModel;
-    hidden var nDelegate;
-    hidden var mView;
-    	hidden var mModel;
-    hidden var mDelegate;
+    hidden var View;
+    	hidden var Model;
+    hidden var Delegate;
     
-    // onStart() is called on application start up
+    //Called on application start up
     function onStart(state) {
-    		nView = new CryptoWidgetView();
-    		nModel = new PriceModel(nView.method(:onPrice));
-    		nDelegate = new CryptoPricesDelegate(nModel);
+    		View = new CryptoWidgetView();
+    		Model = new PriceModel(View.method(:onPrice));
+    		Delegate = new CryptoPricesDelegate(Model);
     }
 
     // onStop() is called when your application is exiting
@@ -22,8 +19,7 @@ class CryptoWidgetApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        //return [ new CryptoPricesView(), new CryptoPricesDelegate() ];
-        return [ nView, nDelegate ];
+        return [ View, Delegate ];
     }
 
 }
