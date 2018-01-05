@@ -39,7 +39,7 @@ Feel free to contact me about requested features, and let me know if you like th
 * Ole Lim Christiansen
 
 ## License
-* MIT License
+* Apache 2.0 License
 
 ## Donations are appreciated!
 I try to keep all my projects open source, and free to use, so donations are much appreciated! :)
@@ -54,7 +54,8 @@ I try to keep all my projects open source, and free to use, so donations are muc
 
 - **TRX**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
 
-- **XLM**: Address: { GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4 } - MEMO: { 1089469240 }
+- **XLM**: Address: { GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4 } -
+MEMO: { 1089469240 }
 
 - **LINK**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
 
