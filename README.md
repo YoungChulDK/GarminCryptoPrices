@@ -39,6 +39,8 @@ Feel free to contact me about requested features, and let me know if you like th
 * Ole Lim Christiansen
 
 ## Donations are appreciated!
+I try to keep all my software development open source, and free to use, so donations are much appreciated! :)
+
 - **BTC**: 1ALX52tCCfn7bYFjC1A5StK1f3FJLUyhd1
 
 - **ETH**: 0x5f03f9dcda0e238df806d330c0f92b0041be1817
