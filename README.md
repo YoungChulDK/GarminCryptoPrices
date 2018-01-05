@@ -39,7 +39,7 @@ Feel free to contact me about requested features, and let me know if you like th
 * Ole Lim Christiansen
 
 ## License
-* MIT License
+* Apache 2.0 License
 
 ## Donations are appreciated!
 I try to keep all my projects open source, and free to use, so donations are much appreciated! :)
