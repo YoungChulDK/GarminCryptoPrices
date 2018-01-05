@@ -1,4 +1,4 @@
-# Garmin - Connect IQ Widget - Cryptocurrency Prices (v1.1.0)
+# Garmin - Connect IQ Widget - Cryptocurrency Prices (v1.1.6)
 Widget to keep you updated on the current prices of Top 10 cryptocurrencies on CoinMarketCap. 
 
 Currently it shows the current price of Bitcoin (BTH), Ripple (XRP), Ethereum (ETH), Bitcoin Cash (BCH), Cardano (ADA), Tron (TRX), NEM (XEM), Litecoin (LTC), Stellar Lumens (XLM) and IOTA (MIOTA).
@@ -30,6 +30,7 @@ Feel free to contact me about requested features, and let me know if you like th
 - [X] Add support for more devices (D2 Bravo and VivoActive Support added in v1.1.0)
 - [X] Add additional logos to 'drawables' in case of a new Top 10
 - [X] Add USD/EUR conversion
+- [ ] Add background activity to avoid startup time
 - [ ] Improve scalability of text and bitmaps
 - [ ] Add 24hr/7day graphs for each currency, and 24hr Low/High
 - [ ] Portfolio tracking
