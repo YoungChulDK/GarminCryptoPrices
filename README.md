@@ -5,7 +5,7 @@ Currently it shows the current price of Bitcoin (BTH), Ripple (XRP), Ethereum (E
 
 ![alt text](https://github.com/YoungChulDK/GarminCryptoPrices/blob/master/Images/Page1USD.png?raw=true)
 
-[Get the official Garmin app here!](https://apps.garmin.com/da-DK/apps/eb6d1bc7-c9a3-4c17-9c33-41894f023064)
+[Get the official Garmin app here! (5 :stars: (4 Ratings) - 389 Downloads)](https://apps.garmin.com/da-DK/apps/eb6d1bc7-c9a3-4c17-9c33-41894f023064)
 
 **This was just a quick holiday project, so it is not fully finished yet.** 
 
