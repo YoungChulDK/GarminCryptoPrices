@@ -1,7 +1,7 @@
 # Garmin - Connect IQ Widget - Cryptocurrency Prices (v1.1.0)
 Widget to keep you updated on the current prices of Top 10 cryptocurrencies on CoinMarketCap. 
 
-Currently it shows the current price of Bitcoin (BTH), Ethereum (ETH), Bitcoin Cash (BCH), Ripple (XRP) and Litecoin (LTC).
+Currently it shows the current price of Bitcoin (BTH), Ripple (XRP), Ethereum (ETH), Bitcoin Cash (BCH), Cardano (ADA), Tron (TRX), NEM (XEM), Litecoin (LTC), Stellar Lumens (XLM) and IOTA (MIOTA).
 
 ![alt text](https://github.com/YoungChulDK/GarminCryptoPrices/blob/master/Images/Page1USD.png?raw=true)
 
@@ -27,9 +27,10 @@ Feel free to contact me about requested features, and let me know if you like th
 - [X] Make GUI scalable for multiple devices
 - [X] Perform testing on multiple Garmin devices
 - [X] Get the app accepted on the ConnectIQ Store
+- [X] Add support for more devices (D2 Bravo and VivoActive Support added in v1.1.0)
+- [X] Add additional logos to 'drawables' in case of a new Top 10
+- [X] Add USD/EUR conversion
 - [ ] Improve scalability of text and bitmaps
-- [ ] Add support for more devices
-- [ ] Add additional logos to 'drawables' in case of a new Top 5
 - [ ] Add 24hr/7day graphs for each currency, and 24hr Low/High
 - [ ] Portfolio tracking
 
@@ -44,3 +45,12 @@ Feel free to contact me about requested features, and let me know if you like th
 - **LTC**: LPd4RzQtXZ9SPbzYJnEedz4Lt566rMF7kv
 
 - **XRP**: Tag:{ 73590485 } Address: { rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy }
+
+- **TRX**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
+
+- **XLM**: Address: { GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4 } - MEMO: { 1089469240 }
+
+- **LINK**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
+
+- **ICX**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
+
