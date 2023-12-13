@@ -46,18 +46,10 @@ I try to keep all my projects open source, and free to use, so donations are muc
 
 - **BTC**: 1ALX52tCCfn7bYFjC1A5StK1f3FJLUyhd1
 
-- **ETH**: 0x5f03f9dcda0e238df806d330c0f92b0041be1817
+- **ETH**: 0x871428f5bb36BD02F5bC2de547f7273E471F3A0d
 
-- **LTC**: LPd4RzQtXZ9SPbzYJnEedz4Lt566rMF7kv
+- **XLM**: GCR5X5Z7ETS4DLGPMBD6BGCBO5QZIL2O3CLKLGE6NEH5L55FDZFFLXFD
 
-- **XRP**: Tag:{ 73590485 } Address: { rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy }
-
-- **TRX**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
-
-- **XLM**: Address: { GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4 } 
-          - MEMO: { 1089469240 }
+- **ADA**: addr1v9h0ef0n95d0jjdp33zg3hx7kuys06h0pajr66tfqgg7akc4luvtr
 
 - **LINK**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
-
-- **ICX**: 0x0ede2c872b25793ca06b513ebce0baabe357f6b1
-
